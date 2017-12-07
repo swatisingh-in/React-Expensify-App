@@ -1,5 +1,6 @@
 .DS_Store
 node_modules/
+src/playground/
 public/dist/
 .env.test
 .env.development

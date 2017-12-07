@@ -68,7 +68,7 @@ test('should handle date change', () => {
   const startDate = moment(0).add(4, 'years');
   const endDate = moment(0).add(8, 'years');
 
-  wrapper.find('withStyles(DateRangePicker)').prop('onDatesChange')({startDate, endDate});
+  wrapper.find('DateRangePicker').prop('onDatesChange')({startDate, endDate});
 
   expect(setStartDate).toHaveBeenLastCalledWith(startDate);
   expect(setEndDate).toHaveBeenLastCalledWith(endDate);
@@ -76,6 +76,6 @@ test('should handle date change', () => {
 
 test('should handle date focus changes', () => {
   const calenderFocused = 'endDate';
-  wrapper.find('withStyles(DateRangePicker)').prop('onFocusChange')(calenderFocused);
+  wrapper.find('DateRangePicker').prop('onFocusChange')(calenderFocused);
   expect(wrapper.state('calenderFocused')).toBe(calenderFocused);
 });
