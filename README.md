@@ -1,6 +1,6 @@
 # Expensify
 
-Expensify is a web app which allows user to view, add, edit and delete their expenditures. User can sort the expenditures based on date, amount or some text. It also allows user to view the expenses occurred during a particular period.
+Expensify is a web app which allows user to view, add, edit and delete their expenditures. User can sort the expenditures based on date, amount or some text. It also allows user to view the expenses incurred during a particular period.
 
 # Login
 ![Alt text](/public/images/login.png?raw=true "login")
